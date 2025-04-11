@@ -114,7 +114,7 @@ public class TestControleursDesCas {
 		System.out.println("///////////////////////////////");
 		System.out.println("Cas 6 : Liberer etal");
 		ControlLibererEtal controlLibererEtal = new ControlLibererEtal(
-				controlTrouverEtalVendeur);
+				controlTrouverEtalVendeur, village);
 		String[] ventesObelix = controlLibererEtal.libererEtal("Obelix");
 		System.out.println("Les ventes d'Obelix : ");
 		System.out.println("[0] : un boolean indiquant si l'étal est occupé ");
